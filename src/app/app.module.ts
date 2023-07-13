@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './pokemon/page-not-found/page-not-found.component';
 import { PokemonModule } from './pokemon/pokemon.module';
+import { FormsModule } from '@angular/forms';
 
 // beware order of import module
 @NgModule({
@@ -14,6 +15,7 @@ import { PokemonModule } from './pokemon/pokemon.module';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     PokemonModule,
     AppRoutingModule,
   ],
